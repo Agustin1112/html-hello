@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.post {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+}
+
+.post-header, .post-actions, .post-likes, .post-caption, .post-comments, .post-time {
+    padding: 10px;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.three-dots {
+    cursor: pointer;
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+}
+
+.post-actions i {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.post-actions i:last-child {
+    margin-right: 0;
+}
+
+.post-likes, .post-caption, .post-comments, .post-time {
+    font-size: 14px;
+}
+
+.post-caption .hashtag {
+    color: #00376b;
+}
+
+.comment {
+    display: block;
+    margin-top: 5px;
+}
+
+.fa-heart {
+    color: red;
+}
+
+
