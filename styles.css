@@ -1,36 +1,37 @@
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    background-color: #fafafa;
-    margin: 0;
-    padding: 0;
+    line-height: 1.6;
 }
 
 .container {
     max-width: 600px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 1rem;
 }
 
 header {
-    background-color: #fff;
-    border-bottom: 1px solid #dbdbdb;
-    padding: 10px 0;
-    text-align: center;
+    border-bottom: 2px solid #e1e1e1;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .logo h1 {
     margin: 0;
-    font-size: 24px;
 }
 
+.site-description {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 0.5rem;
+}
+
+/* Estilos de las publicaciones */
 .post {
-    background-color: #fff;
-    border: 1px solid #dbdbdb;
-    margin-bottom: 20px;
-}
-
-.post-header, .post-actions, .post-likes, .post-caption, .post-comments, .post-time {
-    padding: 10px;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: #fff;
 }
 
 .post-header {
@@ -48,7 +49,7 @@ header {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 0.5rem;
 }
 
 .username {
@@ -56,45 +57,73 @@ header {
 }
 
 .three-dots {
-    cursor: pointer;
+    font-size: 1.2rem;
+    color: #999;
 }
 
 .post-image {
     width: 100%;
-    height: auto;
+    margin: 0.5rem 0;
 }
 
 .post-actions {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 24px;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
 }
 
 .post-actions i {
-    cursor: pointer;
-    margin-right: 10px;
+    margin-right: 1rem;
 }
 
-.post-actions i:last-child {
-    margin-right: 0;
+.post-actions .fa-bookmark {
+    margin-left: auto;
+    color: #999;
 }
 
-.post-likes, .post-caption, .post-comments, .post-time {
-    font-size: 14px;
+.post-actions .fa-heart {
+    color: red;
 }
 
-.post-caption .hashtag {
-    color: #00376b;
+.post-likes {
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.post-caption {
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.hashtag {
+    color: #0095f6;
+}
+
+.post-description {
+    font-size: 0.9rem;
+    color: #333;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem; /* Ensure space below description */
+}
+
+.post-comments {
+    margin: 0.5rem 0;
 }
 
 .comment {
     display: block;
-    margin-top: 5px;
+    margin-bottom: 0.5rem;
+    color: #333; /* Ensure color consistency */
 }
 
-.fa-heart {
-    color: red;
+.post-time {
+    font-size: 0.8rem;
+    color: #999;
 }
+
+
+
 
 
